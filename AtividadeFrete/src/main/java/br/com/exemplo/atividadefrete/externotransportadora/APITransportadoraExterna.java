@@ -1,0 +1,7 @@
+package br.com.exemplo.atividadefrete.externotransportadora;
+
+public class APITransportadoraExterna {
+    public double calcularCustoEnvio(double pesoEmKg) {
+        return 25.0 + pesoEmKg * 0.18;
+    }
+}

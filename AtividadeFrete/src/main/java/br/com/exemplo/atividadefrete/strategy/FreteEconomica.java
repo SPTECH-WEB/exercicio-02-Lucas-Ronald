@@ -1,4 +1,4 @@
-package br.com.exemplo.atividadefrete.service;
+package br.com.exemplo.atividadefrete.strategy;
 
 import org.springframework.stereotype.Component;
 
@@ -11,6 +11,6 @@ public class FreteEconomica implements FreteStrategy {
 
     @Override
     public String tipo() {
-        return "Econômica";
+        return "Economica";
     }
 }

@@ -1,16 +1,16 @@
-package br.com.exemplo.atividadefrete.service;
+package br.com.exemplo.atividadefrete.strategy;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class FreteExpressa implements FreteStrategy{
+public class FreteTercerizada implements FreteStrategy {
     @Override
     public double calcular(double peso) {
-        return 5.0 * peso;
+        return 7.0 * peso;
     }
 
     @Override
     public String tipo() {
-        return "Expressa";
+        return "Tercerizada";
     }
 }
